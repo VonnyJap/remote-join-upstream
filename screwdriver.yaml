@@ -31,3 +31,6 @@ jobs:
       - sd@2054:third
     steps:
       - echo: echo third
+  detached:
+    steps:
+      - echo: echo detached
